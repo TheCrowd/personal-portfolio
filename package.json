@@ -2,6 +2,7 @@
   "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://thecrowd.github.io/personal-portfolio/",
   "dependencies": {
     "@react-three/drei": "^9.68.3",
     "@react-three/fiber": "^8.13.0",
