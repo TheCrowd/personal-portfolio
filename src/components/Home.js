@@ -102,10 +102,7 @@ function Cube() {
     mesh.current.material.opacity = data.range(0, 1 / 3);
     mesh.current.position.z = data.range(0, 1 / 3) * 10;
   });
-  const texture = useLoader(
-    THREE.TextureLoader,
-    "personal-portfolio/images/matrix.jpg"
-  );
+  const texture = useLoader(THREE.TextureLoader, "images/matrix.jpg");
   return (
     <mesh ref={mesh} position={[2.5, 0.5, 0]}>
       <boxBufferGeometry attach="geometry" args={[3, 3, 3]} />
