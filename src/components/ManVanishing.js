@@ -106,14 +106,14 @@ export default function ManVanishing() {
   });
   useEffect(() => {
     if (maleModel && femaleModel) return;
-    loader.load("personal-portfolio/models/male02.obj", (obj) => {
+    loader.load("models/male02.obj", (obj) => {
       setMaleModel(obj);
       const positions = combineBuffer(obj, "position");
       const maleMesh = createMesh(positions, 0.01, -1, 0, 0, 0xff7744);
       setMeshes([...meshes, ...maleMesh]);
     });
 
-    loader.load("personal-portfolio/models/female02.obj", (obj) => {
+    loader.load("models/female02.obj", (obj) => {
       setFemaleModel(obj);
       const positions = combineBuffer(obj, "position");
       const femaleMeshes = createMesh(positions, 0.01, -1, 1, 0, 0xff7744);
