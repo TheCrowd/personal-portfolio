@@ -25,3 +25,9 @@ particles scattering and them forming the weclome text
 11. scroll control animation: https://codesandbox.io/s/4jr4p
 
 12. infinite scroll design with text and images: https://codesandbox.io/s/yjhzv
+
+13. ascii renderer: https://codesandbox.io/s/vq9wsl
+
+14. 飞机加飞行员模: https://codesandbox.io/s/2ij9u
+
+15. 词云功能: https://codesandbox.io/s/yup2o
