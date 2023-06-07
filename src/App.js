@@ -11,7 +11,7 @@ import "./App.css";
 
 const router = createBrowserRouter([
   {
-    path: "/personal-portofolio",
+    path: "/personal-portfolio",
     element: <Home />,
   },
   {
